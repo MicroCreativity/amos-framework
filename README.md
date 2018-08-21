@@ -4,7 +4,7 @@
 ## 根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发
 
 # 配置步骤
-## 1、在resources下创建generate-code.properties文件。
+## 1、在resources下创建generate-code.properties文件（还有很多配置没对外暴露懒得写了，后期慢慢写）。
 ```
   #mysql jdbc URL
   generate.jdbc.url=jdbc:mysql://127.0.0.1:3306/amos
