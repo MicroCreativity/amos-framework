@@ -1,8 +1,6 @@
-# amos-framework
-## amos lam's framework
+# amos lam's framework
 
-### 根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发
-### 支持oracle、mysql数据库
+## 根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发，支持oracle、mysql数据库
 
 # 配置步骤
 ## 1、在resources下创建generate-code.properties文件。
@@ -183,6 +181,5 @@
 ## 3、调用生成器
 ```
     自定义类继承自CodeGenerator cg = new 自定义类继承自CodeGenerator();
-    
-		cg.genCode("src/main/resources/generate-code.properties","user",null);
+    cg.genCode("src/main/resources/generate-code.properties","user",null);
 ```
