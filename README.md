@@ -1,6 +1,7 @@
 # amos lam's framework
 
-## 根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发，支持oracle、mysql数据库
+## 支持oracle、mysql数据库
+## 根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发
 
 # 配置步骤
 ## 1、在resources下创建generate-code.properties文件。
