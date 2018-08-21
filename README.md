@@ -28,7 +28,7 @@
   generate.author=amos lam
 
 ```
-## 2、随意新建一个类，集成自CodeGenerator，实现如下方法（注：以下方法支持自定义校验字段，如不需要自定义可不实现，直接调用CodeGenerator就好）。
+## 2、随意新建一个类，继承自CodeGenerator，实现如下方法（注：以下方法支持自定义校验字段，如不需要自定义可不实现，直接调用CodeGenerator就好）。
 ```
   @Override
 	protected List<String> saveExcludeField(List<String> saveExcludeField) {
