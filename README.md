@@ -1,4 +1,4 @@
-# amos lam's framework
+# amos lam's framework , 基于maven generator和freemarker的代码生成器
 
 ## 支持oracle、mysql数据库
 ## 根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发
